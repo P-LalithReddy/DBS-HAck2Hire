@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+body{
+    background-image: linear-gradient(rgb(55, 120, 248),rgb(8, 51, 138));
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+button{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 4em;
+    align-items: center;
+}
+
+.menu-items ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-items ul li{
+    margin-left: 1em;
+}
+
+.menu-items a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1em;
+}
+.menu-items a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    font-size: 2em;
+    color: white;
+}
+
+.logo span{
+    font-weight: bolder;
+}
+
+.login-page{
+    text-align: right;
+    margin-right : 7.5em;
+}
+
+.login-page button{
+    margin-right: 4.2em;
+    margin-top: 1em;
+    background-color: rgb(8, 51, 138);
+    padding: 0.3em 1em;
+    color: white;
+}
+
+.search-flight{
+    margin-top: 4em;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 1em;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+}
+
+.ticket-details{
+    margin-bottom: 1em;
+}
+
+.travel-details input,.travel-details select{
+    height: 3em;
+    width: 17em;
+    margin: 0 0.5em;
+}
+
+.travel-details label{
+    font-size: 0.8em;
+}
+
+.search-btn{
+    height: 3em;
+    width: 10em;
+    border-radius: 0.7em;
+    background-color: rgb(8, 51, 138);
+    border: none;
+    color: white;
+}
+
+.reg_form{
+    text-align: center;
+    margin-top: 5em;
+}
+
+.reg_form ul{
+    list-style: none;
+}
+
+.reg_form input{
+    width: 20em;
+    height: 2.5em;
+    margin: 1em;
+}
+
+.reg_form button{
+    padding: 1em 2em;
+    margin-left: 3em;
+}
+
+.reg_form li{
+    font-weight: bold;
+    color: white;
+}

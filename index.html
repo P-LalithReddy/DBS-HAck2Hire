@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndiGo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Indi<span>Go</span></div>
+        <div class="menu-items">
+            <ul>
+                <li><a id="login">Login</a></li>
+                <li><a href="reg_page.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="login-page">
+        <div>
+            <input type="text" placeholder="email"><br>
+            <input type="password" placeholder="Password"><br>
+            <button class="login-submit-btn">Login</button>
+        </div>
+    </div>
+    <div class="search-flight">
+        <div>
+            <div class="ticket-details">
+                <input type="text" placeholder="Number of persons">
+                <select id="ticket-type">
+                    <option>Basic</option>
+                    <option>Executive</option>
+                </select>
+            </div>
+            <div class="travel-details">
+                <!-- <input type="text" placeholder="From" id="from-place"> -->
+                <select name="From" id="from-place">
+                    <option selected hidden>From</option>
+                    <option>Hyderabad</option>
+                    <option>Mumbai</option>
+                    <option>Chennai</option>
+                    <option>Delhi</option>
+                    <option>Bangalore</option>
+                </select>
+                <!-- <input type="text" placeholder="To" id="to-place"> -->
+                <select name="To" id="to-place">
+                    <option selected hidden>To</option>
+                    <option>Hyderabad</option>
+                    <option>Mumbai</option>
+                    <option>Chennai</option>
+                    <option>Delhi</option>
+                    <option>Bangalore</option>
+                </select>
+                <label for="travel-date">Travel Date :</label>
+                <input type="date" id="travel-date">
+            </div>
+        </div>
+        <button class="search-btn">Search Flights</button>
+    </div>
+</body>
+</html>
